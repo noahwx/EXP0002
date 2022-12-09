@@ -523,3 +523,19 @@ body {
 .story {
     z-index: 99;
 }
+
+/* Search Styles */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 99;
+}
+
+.search-input {
+    height: 10vh;
+    width: 80vw;
+}
