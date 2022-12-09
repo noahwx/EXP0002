@@ -5,9 +5,9 @@ const TrendingNews = () => {
         <>
             <div className='container'>
                 <div className='container-info'>
-                    <h1 className='home-title'>Trending News</h1>
-                    <p className='home-stitle'>All your latest stock news.</p>
+                    <h1 className='TS-title'>Trending News</h1>
                 </div>
+                <div className='TS-BG'></div>
             </div>
         </>
     );
