@@ -30,10 +30,10 @@ const Home = () => {
                 <div className='home-trend-container'>
                     <h3 className='htrend-title'>Today's Trending Stories</h3>
                     <div className='ht-stories'>
-                        <a href='/' className='ht-story img1'><div className='link-text'>Why is New York the Stock Capitial</div></a>
+                        <a href='/' className='ht-story img1'><div className='link-text'>Why is New York the Stock Capitial?</div></a>
                         <a href='/' className='ht-story img2'><div className='link-text'>Newspapers?</div></a>
                         <a href='/' className='ht-story img3'><div className='link-text'>What has lead to FaceBook's Demise</div></a>
-                        <a href='/' className='ht-story img4'><div className='link-text'>A New Platform</div></a>
+                        <a href='/' className='ht-story img4'><div className='link-text'>A New Platform?</div></a>
                     </div>
                 </div>
 

@@ -341,10 +341,10 @@ body {
     top: 0;
 
     background-color: #EF476F;
-    height: 100vh;
+    height: 200vh;
     width: 50vw;
 
-    transform: skew(140deg);
+    transform: skew(145deg);
 
     z-index: 0;
 }
@@ -359,6 +359,84 @@ body {
 
     color: #FFFCF9;
     text-shadow: 5px 5px #140800;
+}
+
+.LN-container {
+    position: relative;
+    z-index: 99;
+    margin: 0 auto;
+
+    height: auto;
+    width: 70vw;
+
+    overflow: hidden;
+}
+
+.LN-story-container {
+    position: relative;
+    z-index: 100;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+
+    height: 25vh;
+    width: auto;
+
+    border-radius: 1em;
+
+    background-color: #06D6A0;
+
+    transition: opacity 500ms ease;
+}
+
+.LN-story-title {
+    position: absolute;
+    top: 0;
+    margin-left: 1vw;
+    z-index: 99;
+
+    width: 20vw;
+
+    color: #FFFCF9;
+
+    text-decoration: none;
+}
+
+.LN-story-stitle {
+    position: absolute;
+    top: 5vh;
+    margin-left: 1vw;
+    z-index: 99;
+
+    width: 20vw;
+
+    color: #FFFCF9;
+
+    text-decoration: none;
+}
+
+.storyimg0 {
+    position: relative;
+    z-index: 5;
+    height: 25vh;
+    width: auto;
+    margin-bottom: 2vh;
+
+    border-radius: 1em;
+
+    background-image: url('https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    transition: opacity 500ms ease;
+}
+
+.jh:hover > .LN-story-container .storyimg0 {
+    opacity: 0.3;
+}
+
+.jh:hover > .LN-story-container:hover .storyimg0:hover {
+    opacity: 1;
 }
 
 /* Trending Styles */

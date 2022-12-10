@@ -2,7 +2,7 @@ import './index.css';
 import Main from './Main';
 import Navbar from './Navbar';
 
-// Build: 0.0.006
+// Build: 0.0.007
 
 function App() {
   return (
